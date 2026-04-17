@@ -1,0 +1,36 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Backend (Go)
+# ================================
+Backend/.env
+Backend/.env.*
+Backend/vendor/
+
+# Go binaries
+Backend/**/*.exe
+Backend/**/*.out
+# Binary tên cụ thể theo cmd của bạn
+Backend/cmd/server/server
+
+# ================================
+# Frontend (Node / Nx / Angular)
+# ================================
+Frontend/Internal-System-Nx/node_modules/
+Frontend/Internal-System-Nx/dist/
+Frontend/Internal-System-Nx/.angular/
+Frontend/Internal-System-Nx/.nx/cache
+Frontend/Internal-System-Nx/*.env

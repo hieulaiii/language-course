@@ -1,0 +1,11 @@
+# Binary
+/cmd/server/server
+*.exe
+*.out
+
+# Env
+.env
+.env.*
+
+# Vendor (nếu không commit vendor)
+vendor/
