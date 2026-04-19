@@ -2,10 +2,12 @@
   "extends": ["stylelint-config-standard-scss"],
   "rules": {
     "at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["tailwind", "apply", "layer", "screen"]
+      "ignoreAtRules": ["tailwind", "apply", "layer", "screen", "theme"]
     }],
     "scss/at-rule-no-unknown": [true, {
-      "ignoreAtRules": ["tailwind", "apply", "layer", "screen"]
-    }]
+      "ignoreAtRules": ["tailwind", "apply", "layer", "screen", "theme"]
+    }],
+    "no-invalid-position-at-import-rule": null,
+    "no-empty-source": null
   }
 }
